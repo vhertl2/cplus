@@ -11,4 +11,7 @@ Several operators are overloaded e.g. () cuts the specified part from the image,
 Class Kernel
 Includes convolution kernels (Identity, Edge Detection, Sharpen, Gaussian Blur, Box Blur...) which are used in convolution method from the class Obraz.
 
+Class Vyjimka
+Is used to raise exceptions to chosen invalid operations.
+
 The program uses external library CImg (not included here) for getting pixel intensity values from bmp and for displaying the result of operation to the screen.
